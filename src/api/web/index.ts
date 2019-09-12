@@ -50,7 +50,7 @@ export default function(config, auth, storage) {
 
   router.use(auth.webUIJWTmiddleware());
   router.use(setSecurityWebHeaders);
-  const themePath = loadTheme(config) || require('@verdaccio/ui-theme')();
+  const themePath = loadTheme(config) || require('wx-verdaccio-ui-theme')();
   const indexTemplate = path.join(themePath, 'index.html');
   const template = fs.readFileSync(indexTemplate).toString();
 

@@ -1674,11 +1674,6 @@
   resolved "https://registry.verdaccio.org/@verdaccio%2ftypes/-/types-8.1.0.tgz#298baa1c0bffd340022537a1d9b064b82b4ae497"
   integrity sha512-wc0SaH25ioT6xt4HtlFzvmNSjZXQOddJLDuI1VN4/8nHAIlrUdlQ0sGnmky4+bJOuTL3eqbaqx4nHMKep5+lDg==
 
-"@verdaccio/ui-theme@0.3.0":
-  version "0.3.0"
-  resolved "https://registry.verdaccio.org/@verdaccio%2fui-theme/-/ui-theme-0.3.0.tgz#573a04437cc672e3efe6f4db055f775d86df0958"
-  integrity sha512-CpbiJTxacv/j7yG31x089ZRM4bVTqGRxQEgN4uyqepWtYu6OgI/SvU6rpTuF1BjMkBuvSv8SRBKhpJav5oEs0Q==
-
 "@yarnpkg/lockfile@^1.1.0":
   version "1.1.0"
   resolved "https://registry.verdaccio.org/@yarnpkg%2flockfile/-/lockfile-1.1.0.tgz#e77a97fbd345b76d83245edcd17d393b1b41fb31"
@@ -8442,6 +8437,11 @@ ws@^7.0.0:
   integrity sha512-o41D/WmDeca0BqYhsr3nJzQyg9NF5X8l/UdnFNux9cS3lwB+swm8qGWX5rn+aD6xfBU3rGmtHij7g7x6LxFU3A==
   dependencies:
     async-limiter "^1.0.0"
+
+wx-verdaccio-ui-theme@0.3.0:
+  version "0.3.0"
+  resolved "http://npm.visionacademy.cn/wx-verdaccio-ui-theme/-/wx-verdaccio-ui-theme-0.3.0.tgz#0c832ae7562e00fb382d8fd0447bbe05f8a46f5d"
+  integrity sha512-uhdM8UOTq9e31BllKeF/KVJiIsr0S4FAt9Pf6lcY55rtQsPajYz0DsuiJmTH8YRGUJK/b6d5GCyGM9g6p9RrtQ==
 
 xml-name-validator@^3.0.0:
   version "3.0.0"
