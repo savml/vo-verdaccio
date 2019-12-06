@@ -88,7 +88,7 @@
     "typescript": "3.6.2",
     "verdaccio-auth-memory": "8.1.0",
     "verdaccio-memory": "8.1.0",
-    "wx-verdaccio-ui-theme": "^0.3.3"
+    "vo-verdaccio-ui-theme": "^0.3.3"
   },
   "keywords": [
     "private",
