@@ -15,3 +15,10 @@ npm publish --registry=https://registry.npmjs.org/
 ```
 npm login --registry=https://registry.npmjs.org/
 ```
+
+###  启动
+
+```
+export UNPKG_URL=http://localhost:4874
+vo-verdaccio
+```

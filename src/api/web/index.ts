@@ -93,6 +93,7 @@ export default function(config, auth, storage) {
       .replace(/ToReplaceByTitle/g, title)
       .replace(/ToReplaceByLogo/g, logoURI)
       .replace(/ToReplaceByPrimaryColor/g, primaryColor)
+      .replace(/ToReplaceByUnpkgUrl/g, (process.env as any).UNPKG_URL)
       .replace(/ToReplaceByScope/g, scope);
 
     res.setHeader('Content-Type', HEADERS.TEXT_HTML);
