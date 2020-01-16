@@ -19,6 +19,7 @@ npm login --registry=https://registry.npmjs.org/
 ###  启动
 
 ```
-export UNPKG_URL=http://localhost:4874
-vo-verdaccio
+export UNPKG_URL=//localhost:4874
+export CONTRACT_URL=//localhost:4875
+verdaccio
 ```
