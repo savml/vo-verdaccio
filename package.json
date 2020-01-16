@@ -1,6 +1,6 @@
 {
   "name": "vo-verdaccio",
-  "version": "4.3.3",
+  "version": "4.3.4",
   "description": "A lightweight private npm proxy registry",
   "author": {
     "name": "Verdaccio Maintainers",
@@ -48,7 +48,8 @@
     "request": "2.87.0",
     "semver": "6.3.0",
     "verdaccio-audit": "8.0.0",
-    "verdaccio-htpasswd": "8.1.0"
+    "verdaccio-htpasswd": "8.1.0",
+    "vo-verdaccio-ui-theme": "^0.3.5"
   },
   "devDependencies": {
     "@commitlint/cli": "8.1.0",
@@ -86,8 +87,7 @@
     "supertest": "4.0.2",
     "typescript": "3.6.2",
     "verdaccio-auth-memory": "8.1.0",
-    "verdaccio-memory": "8.1.0",
-    "vo-verdaccio-ui-theme": "^0.3.5"
+    "verdaccio-memory": "8.1.0"
   },
   "keywords": [
     "private",
